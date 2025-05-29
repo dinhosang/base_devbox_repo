@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## 0.3.0 - 2025-05-29
+#### Features
+- remove manual change log creation during setup - (b172f9a) - dinhosang
+
+- - -
+
 ## 0.2.0 - 2025-05-29
 #### Features
 - ignore change log file during copy and create version bump script - (0e3fd9c) - dinhosang
