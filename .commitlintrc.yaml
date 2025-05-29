@@ -58,6 +58,7 @@ rules:
     - 2
     - always
     - 
+      - build
       - chore
       - ci
       - docs
@@ -68,5 +69,4 @@ rules:
       - revert
       - style
       - test
-      - WIP
 
