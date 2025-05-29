@@ -11,7 +11,8 @@
         "git config core.hooksPath .githooks",
         "git config --local alias.cz '!./scripts/git/git-cz.sh'"
       ],
-      "commit": "cog commit \"$@\""
+      "commit": "cog commit \"$@\"",
+      "bump": "cog bump --auto"
     }
   }
 }

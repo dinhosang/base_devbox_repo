@@ -39,6 +39,7 @@ copy_files() {
 	  --exclude='.git' \
 	  --exclude='create_repo.sh' \
 	  --exclude='README.md' \
+	  --exclude='CHANGELOG.md' \
 	  $source/ \
 	  $destination
 
