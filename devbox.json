@@ -7,7 +7,7 @@
   "shell": {
     "scripts": {
       "setup": [
-	"cog init",
+	"cog init || true",
         "git config core.hooksPath .githooks",
         "git config --local alias.cz '!./scripts/git/git-cz.sh'"
       ],
