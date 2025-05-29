@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## 0.3.1 - 2025-05-29
+#### Bug Fixes
+- stop setup throwing error if cog.toml already exists - (55fd186) - dinhosang
+
+- - -
+
 ## 0.3.0 - 2025-05-29
 #### Features
 - remove manual change log creation during setup - (b172f9a) - dinhosang
