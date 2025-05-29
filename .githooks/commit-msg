@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+MSG_FILE="$1"
+
+new_msg=$(<"$MSG_FILE")
+
+if git rev-parse --verify HEAD >/dev/null 2>&1; then
+  prev_msg=$(git log -1 --pretty=%B)
+else
+  prev_msg=""
+fi
+
+trimmed_new_msg=$(echo "$new_msg" | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
+trimmed_prev_msg=$(echo "$prev_msg" | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
+
+if [[ -z "$trimmed_new_msg" || "$trimmed_new_msg" == "$trimmed_prev_msg" ]]; then
+  exit 0
+fi
+
+commitlint --edit $MSG_FILE
+

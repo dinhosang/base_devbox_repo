@@ -1,0 +1,18 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.14.2/.schema/devbox.schema.json",
+  "packages": [
+    "commitlint@19.8.0",
+    "cocogitto@6.3.0"
+  ],
+  "shell": {
+    "scripts": {
+      "setup": [
+	"cog init && cog changelog > CHANGELOG.md",
+        "git config core.hooksPath .githooks",
+        "git config --local alias.cz '!./scripts/git/git-cz.sh'"
+      ],
+      "commit": "cog commit \"$@\""
+    }
+  }
+}
+

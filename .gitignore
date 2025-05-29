@@ -1,0 +1,50 @@
+##
+# devbox
+##
+
+
+.devbox
+
+
+#################
+#### General ####
+#################
+
+
+##
+# linux
+##
+
+
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+nohup.out
+
+
+##
+# mac
+##
+
+
+.DS_Store
+
+
+##
+# vscode
+##
+
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+.history/
+
+*.vsix
+

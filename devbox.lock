@@ -1,0 +1,105 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "cocogitto@6.3.0": {
+      "last_modified": "2025-05-16T20:19:48Z",
+      "resolved": "github:NixOS/nixpkgs/12a55407652e04dcf2309436eb06fef0d3713ef3#cocogitto",
+      "source": "devbox-search",
+      "version": "6.3.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/w2d2rdr57sqikg19wf85m06gcks4pvb6-cocogitto-6.3.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/w2d2rdr57sqikg19wf85m06gcks4pvb6-cocogitto-6.3.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/nq9wxhgc6zaccbgv44rs9k6rhgwjzsvl-cocogitto-6.3.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/nq9wxhgc6zaccbgv44rs9k6rhgwjzsvl-cocogitto-6.3.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/jqs106vjkh1mv29ribgw0p4kr6f5lgzh-cocogitto-6.3.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/jqs106vjkh1mv29ribgw0p4kr6f5lgzh-cocogitto-6.3.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/z2p2lrr7nzjfpp23xddbdcpxc7jj8w1p-cocogitto-6.3.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/z2p2lrr7nzjfpp23xddbdcpxc7jj8w1p-cocogitto-6.3.0"
+        }
+      }
+    },
+    "commitlint@19.8.0": {
+      "last_modified": "2025-05-21T18:43:04Z",
+      "resolved": "github:NixOS/nixpkgs/8c441601c43232976179eac52dde704c8bdf81ed#commitlint",
+      "source": "devbox-search",
+      "version": "19.8.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/1f7360cciynw0vsy3a04sxqyv352f3w5-_at_commitlint_slash_cli-19.8.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/1f7360cciynw0vsy3a04sxqyv352f3w5-_at_commitlint_slash_cli-19.8.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/d0arj5hl7cncnn1yymxr8gpps4zc5qb8-_at_commitlint_slash_cli-19.8.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/d0arj5hl7cncnn1yymxr8gpps4zc5qb8-_at_commitlint_slash_cli-19.8.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/79h2a30988dgl5mn7vbmgcg8jg4bn763-_at_commitlint_slash_cli-19.8.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/79h2a30988dgl5mn7vbmgcg8jg4bn763-_at_commitlint_slash_cli-19.8.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/4cdwjkjd19vf87858q9hk2k26qb0nm8i-_at_commitlint_slash_cli-19.8.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/4cdwjkjd19vf87858q9hk2k26qb0nm8i-_at_commitlint_slash_cli-19.8.0"
+        }
+      }
+    },
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "last_modified": "2025-05-28T04:23:31Z",
+      "resolved": "github:NixOS/nixpkgs/3d1f29646e4b57ed468d60f9d286cde23a8d1707?lastModified=1748406211&narHash=sha256-B3BsCRbc%2Bx%2Fd0WiG1f%2BqfSLUy%2BoiIfih54kalWBi%2B%2FM%3D"
+    }
+  }
+}
