@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## 0.4.0 - 2025-06-14
+#### Features
+- add pre bump hook to update the version file - (7e4efba) - dinhosang
+#### Miscellaneous Chores
+- allow build commit type in commitlint - (74e9b60) - dinhosang
+
+- - -
+
 ## 0.3.1 - 2025-05-29
 #### Bug Fixes
 - stop setup throwing error if cog.toml already exists - (55fd186) - dinhosang
